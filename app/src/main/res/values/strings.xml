@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GengKapakOS UI</string>
+    <string name="title_dashboard">Beranda</string>
+    <string name="title_about">Tentang</string>
+    <string name="app_version">1.0.2 (11.09.2021)</string>
+    <!--  About  -->
+    <string name="about_desc">Aplikasi ini dibuat sebagai kumpulan dari seluruh layout percobaan yang dibuat pada GengKapakOS serta membantu dalam pengembangannya atas permintaan @mocarafee dan Rio Setiawan. </string>
+
+</resources>
