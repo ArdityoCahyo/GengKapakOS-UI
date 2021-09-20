@@ -11,15 +11,14 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fitsSystemWindows="true"
-        android:theme="@style/Theme.GengKapakOSUI.AppBarOverlay">
+        android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            android:background="?colorPrimaryVariant"
+            android:background="?colorOnPrimary"
             app:contentScrim="?colorOnPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:toolbarId="@+id/toolbar">
@@ -73,43 +72,36 @@
                 android:layout_gravity="bottom"
                 app:layout_scrollFlags="scroll|enterAlways">
 
-                <Toolbar
-                    android:id="@+id/search_action_bar"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="82dp">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingTop="12dp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingBottom="12dp"
+                    android:gravity="start|center"
+                    android:orientation="horizontal"
+                    android:foreground="@drawable/ripple_search_bar"
+                    android:background="@drawable/item_card_search_bar">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_search_24"/>
+
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:paddingTop="12dp"
-                        android:paddingEnd="20dp"
-                        android:paddingStart="20dp"
-                        android:paddingBottom="12dp"
-                        android:gravity="start|center"
-                        android:orientation="horizontal"
-                        android:foreground="@drawable/ripple_search_bar"
-                        android:background="@drawable/item_card_search_bar">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_baseline_search_24"/>
-
-                        <View
-                            android:layout_width="15dp"
-                            android:layout_height="match_parent" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Search settings"
-                            android:textSize="23sp"/>
-                    </LinearLayout>
-
-                </Toolbar>
+                        android:text="Search settings"
+                        android:textSize="23sp"/>
+                </LinearLayout>
 
             </androidx.appcompat.widget.Toolbar>
 
