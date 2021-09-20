@@ -20,15 +20,16 @@ public class DashboardFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
+        View root = inflater.inflate(R.layout.fragment_dashboard_fix, container, false);
 
         Toolbar toolbar = root.findViewById(R.id.toolbar);
+
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         CollapsingToolbarLayout toolBarLayout = root.findViewById(R.id.toolbar_layout);
-        toolBarLayout.setTitle(getResources().getText(R.string.title_dashboard));
-
-        toolBarLayout.setExpandedTitleTextAppearance(R.style.Theme_GengKapakOSUI_CollapsingColor);
-        toolBarLayout.setCollapsedTitleTextAppearance(R.style.Theme_GengKapakOSUI_CollapsingColor);
+//        toolBarLayout.setTitle(getResources().getText(R.string.title_dashboard));
+//
+//        toolBarLayout.setExpandedTitleTextAppearance(R.style.Theme_GengKapakOSUI_CollapsingColor);
+//        toolBarLayout.setCollapsedTitleTextAppearance(R.style.Theme_GengKapakOSUI_CollapsingColor);
 
         return root;
     }

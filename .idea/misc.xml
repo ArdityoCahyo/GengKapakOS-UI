@@ -3,18 +3,48 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/gk_quicksettings_dark__4_ (1).xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/gk_quicksettings_dark__4_.xml" value="0.17612612612612613" />
         <entry key="app/src/main/res/drawable/ic_avatar.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_battery_full_24.xml" value="0.17612612612612613" />
         <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_gk_button_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_button_light.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_gesture_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_lockscreen_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_lockscreen_light.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_logo_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_logo_light.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_navbar_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_navbar_light.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_powermenu_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_quicksettings_dark.xml" value="0.5" />
+        <entry key="app/src/main/res/drawable/ic_gk_quicksettings_light.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_quicksettings_light__5_.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_statusbar_dark.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_statusbar_light.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/ic_gk_themes_dark.xml" value="0.17612612612612613" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.22" />
         <entry key="app/src/main/res/drawable/ic_outline_dashboard_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_outline_info_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/item_card.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable/item_card_search_bar.xml" value="0.17612612612612613" />
+        <entry key="app/src/main/res/drawable/item_search_bar.xml" value="0.12222222222222222" />
+        <entry key="app/src/main/res/drawable/ripple_search_bar.xml" value="0.20364583333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_about.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_dashboard_fix.xml" value="0.2501737317581654" />
+        <entry key="app/src/main/res/layout/fragment_dashboard_gk.xml" value="0.2025862068965517" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/layout/item_card.xml" value="0.11322463768115942" />
+        <entry key="app/src/main/res/layout/item_features_gk.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_features_gk_2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/item_search_bar.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/layout_battery.xml" value="0.33" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1875" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10104166666666667" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10104166666666667" />
