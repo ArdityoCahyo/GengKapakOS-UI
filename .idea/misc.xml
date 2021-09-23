@@ -42,6 +42,7 @@
         <entry key="app/src/main/res/layout/item_card.xml" value="0.11322463768115942" />
         <entry key="app/src/main/res/layout/item_features_gk.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_features_gk_2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_gk_header.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_list.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/item_search_bar.xml" value="0.22" />
         <entry key="app/src/main/res/layout/layout_battery.xml" value="0.33" />
